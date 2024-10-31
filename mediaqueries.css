@@ -11,7 +11,7 @@
 @media screen and (max-width: 1200px){
     #desktop-nav{
         display: none; 
-        /*This means that when the screen size is lower than 120px, desktop navigation will disappear*/
+        /*This means that when the screen size is lower than 1200px, desktop navigation will disappear*/
     }
     #hamburger-nav{
         display: flex;
@@ -47,8 +47,24 @@
         height:40vh;
     }
     #profile{
-        height: 83vh;
+        height: 43vh;
         margin-bottom: 0;
+        margin: 0;
+    }
+    #about{
+        margin: 0;
+    }
+    #experience{
+        margin: 0;
+    }
+    #project{
+        margin: 0;
+    }
+    #contact{
+        margin: 0;
+    }
+    #footer{
+        margin: 0;
     }
     article{
         font-size: 1rem;
@@ -90,5 +106,12 @@
     }
     .text-container{
         text-align: justify;
+    }
+    .text-container p{
+        font-size: small;
+    }
+    .about-containers{
+        display: flex;
+        flex-direction: row;
     }
 }
